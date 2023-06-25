@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  color: rgb(211, 211, 211);
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#table {
+  margin-inline: auto;
+}
+/* .table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.search-sort-container {
+  padding: 20px;
+}
+#searchInput {
+  border: 1px solid grey;
+  background-color: black;
+  width: 30%;
+  padding: 10px;
+  margin: 15px 10px;
+  color: white;
+  border-radius: 5px;
+}
+button {
+  border: 1px solid grey;
+  background-color: black;
+  padding: 10px;
+  margin: 15px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+td {
+  min-width: 70px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(184, 174, 174);
+  text-transform: uppercase;
+}
+#red-percentage {
+  color: red;
+}
+
+#green-percentage {
+  color: greenyellow;
+}
