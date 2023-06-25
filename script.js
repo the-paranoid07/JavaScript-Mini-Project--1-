@@ -48,7 +48,7 @@ function renderTable(displayData) {
         <td>${element.symbol}</td>
         <td>$ ${element.current_price}</td>
         <td>$ ${element.market_cap}</td>
-        <td id="${colorPercentage}">${element.market_cap_change_percentage_24h}</td>
+        <td id="${colorPercentage}">${element.market_cap_change_percentage_24h} %</td>
         <td>Mkt Cap : $ ${element.total_volume}</td>
         `;
     table.appendChild(row);
